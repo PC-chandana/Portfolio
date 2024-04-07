@@ -41,6 +41,34 @@
 					<div class="container">
 						<!-- Content -->
 						<section id="content">
+								<h3>1. GAIT Global, Hyderabad (May'2023 - Present)</h3>
+								<p style="color:lightcoral; font-weight: bold; font-size: 22px;"><span class="image fit"><img src="images/BeforeMG.png" alt="" height="530hv" /></span><span class="image fit"><img src="images/AfterMG.png" alt="" height="530hv" /></span> Project - OSCMI-based classification scheme for rapid and accurate mangrove mapping.</p>
+								<p>There are two kinds of mangrove extraction methods: one is classification, and the other is index-based threshold segmentation or decision tree. Traditional classification method relies on a large number of samples and complex classifiers, which is not suitable for the large-scale extraction of mangrove because of low computational efficiency and poor generalization ability. Using vegetation index can extract target object on the large-scale rapidly, and vegetation index can represent vegetation properties better than using original and individual bands.
+									<ul>
+									The existing mangrove indices have the following problems: 
+									<li>All mangrove indices are constructed based on optical remote sensing images, but the availability of optical images is affected by clouds and fog.</li>
+									<li>Some mangrove indices need multi-temporal images of high tide and low tide to solve the problem of tide flooding, this has a higher demand for data and requires more effort in data screening.</li>
+								    <li>Many mangrove indices have been tested in only one or a few areas (usually with tall and dense mangroves), but different types of mangroves (tall and dense forest or low and sparse forest, rich or single tree species) will have great differences in images, so the ability of the indices for mangrove extraction in different regions needs to be further verified.</li>
+								</p>
+									</ul>
+									<p>To solve the above problems, an Optical and SAR images Combined Mangrove Index (OSCMI) has been introduced. And we will design an OSCMI-based classification scheme, which can reduce the impact of tidal inundation on mangrove extraction to a certain extent.</p>
+									
+									<p>Methodology:
+									Firstly, the Sentinel-1 and Sentinel-2 images were pre-processed. Then, OSCMI were generated through band math, and the initial range of mangrove was extracted using threshold method.
+									The OSCMI-based classification scheme mainly includes two steps. We firstly distinguished vegetation and non-vegetation by NDVI, and Table then we extracted mangrove from vegetation by OSCMI.
+									</p>
+									<p>
+
+									Threshold:
+									This paper (Optical and SAR images Combined Mangrove Index based on multi-feature fusion) constructed an Optical and SAR images Combined Mangrove Index (OSCMI) based on the idea of multi-feature fusion and designed an OSCMI-based classification scheme for rapid and accurate mangrove mapping. The OSCMI threshold is relatively stable, and the recommended threshold range is 0.04–0.07. And users can make some adjustments in different regions. 
+									
+									 </p>
+						</section>
+					</div>
+
+					<div class="container">
+						<!-- Content -->
+						<section id="content">
 								<h3>1. Department of Science and Technology (WIGH), Dehradun (Jan' - May, 2023)</h3>
 								<p style="color:lightcoral; font-weight: bold; font-size: 22px;"><span class="image fit"><img src="images/Glacial.gif" alt="" height="530hv" /></span> Project - Glacial change detection mapping and analysis in Himachal region using combination of datasets (ASTER, DEM and Drone Imagery).</p>
 								<p>In a focused endeavor centered on glacial change detection and mapping within the Himachal Region, I delved into the intricate landscape using machine learning (ML) algorithms. Leveraging Python as the programming language of choice, I meticulously implemented these algorithms to analyze the evolving glacial dynamics. The project involved a meticulous comparison of various ML algorithms against ground truth data to ascertain their accuracy, thereby informing decisions regarding their optimal utilization in detecting and mapping glacial changes. </p>
